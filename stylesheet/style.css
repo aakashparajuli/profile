@@ -38,6 +38,10 @@ body{
     align-items: center;
     z-index: 5;
 }
+strong {
+        font-weight: bold;
+    }
+
 .logo{
     font-size: 3rem;
     color: var(--text-color);
@@ -462,19 +466,22 @@ span{
    width: 100%;
    padding: 2.5rem;
    font-size: 1.8rem;
-   background: var(--second-bg-color);
+   background: black;
    border-radius: 2rem; 
    border: 2px solid var(--main-color);
    margin: 1.5rem 0;
    resize: none;
+   color: rgb(255, 255, 255);  /* Added to ensure the text is visible */
+   
 }
 .contact form .input-box input::placeholder,
 .contact form textarea::placeholder{
-    color: white;
+    color: var(--main-color); /* Change to a visible color */
 }
 .contact form .btn{
     margin-top: 2rem;
 }
+
 .footer{
     position: relative;
     bottom: 0;
