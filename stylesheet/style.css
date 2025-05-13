@@ -260,6 +260,20 @@ span{
     flex-wrap: wrap;
     position: relative;
 }
+.timeline-item {
+    font-size: 1.6rem; /* Ensure the font size is consistent */
+}
+
+.timeline-item ol {
+    margin: 0;
+    padding: 0;
+    font-size: inherit; /* Inherit font size from parent */
+}
+
+.timeline-item li {
+    margin-bottom: 1rem; /* Add spacing between list items */
+    font-size: inherit; /* Ensure list items inherit the parent font size */
+}
 .timeline-items::before{
     content:"";
     position: absolute;
@@ -481,7 +495,6 @@ span{
 .contact form .btn{
     margin-top: 2rem;
 }
-
 .footer{
     position: relative;
     bottom: 0;
