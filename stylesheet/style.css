@@ -215,23 +215,18 @@ span{
 }
 @keyframes words{
     0%,
-    25%{
-        content: " AI Engineer";
+    33.33%{
+        content: "AI/ML Engineer";
     }
 
-    25.01%,
-    50%{
-        content: " Machine Learning Engineer";
+    33.34%,
+    66.66%{
+        content: "Backend Developer";
     }
 
-    50.01%,
-    75%{
-        content: " Python Backend Developer";
-    }
-
-    75.01%,
+    66.67%,
     100%{
-        content: " IT Officer";
+        content: "IT Officer";
     }
 }
 @keyframes typing{
