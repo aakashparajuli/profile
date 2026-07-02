@@ -215,17 +215,23 @@ span{
 }
 @keyframes words{
     0%,
-    33.33%{
-        content: " Frontend Developer";
+    25%{
+        content: " AI Engineer";
     }
-    
-    33.34%,
-    66.66%{
-        content: "  Backend Developer";
+
+    25.01%,
+    50%{
+        content: " Machine Learning Engineer";
     }
-    66.67%,
+
+    50.01%,
+    75%{
+        content: " Python Backend Developer";
+    }
+
+    75.01%,
     100%{
-        content: " Fullstack Developer";
+        content: " IT Officer";
     }
 }
 @keyframes typing{
